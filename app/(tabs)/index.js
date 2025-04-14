@@ -5,16 +5,16 @@ import Botoes from './Botoes';
 const style = StyleSheet.create ({
   container:{
     flex: 1,
-    backgroundColor: '#c0',
+    backgroundColor: '#0',
     padding: 20,
     justifyContent: 'center'
   },
   input:{
     fontSize: 28,
-    color: '#0'
+    color: '#000000',
   },
   botao:{
-    backgroundColor: '#b',
+    backgroundColor: '#bbbbbb',
     borderRadius: 20,
     width: 70,
     height: 70,
@@ -29,13 +29,14 @@ const style = StyleSheet.create ({
   linha:{
     flexDirection: 'row',
     justifyContent: 'center',
-    marginBottom: 12
+    marginBottom: 5
   },
   teclado:{
     justifyContent:'center'
   },
+
   fundo:{
-    backgroundColor: '#c',
+    backgroundColor: '#80',
     borderWidth: 3,
     padding: 20,
     marginBottom: 20,
@@ -50,7 +51,7 @@ export default function index(){
   const [resultado, setResultado] = useState('');
 
   const botoes =[
-    ['C', 'x^y','<', '/'],
+    ['C', 'x^y','/', '<-'],
     ['7', '8','9', 'X'],
     ['4', '5','6', '-'],
     ['1', '2','3', '+'],

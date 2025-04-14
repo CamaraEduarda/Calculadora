@@ -3,8 +3,8 @@ import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
 const style = StyleSheet.create({
     botao:{
-        backgroundColor: '#b',
-        borderRadius: 20,
+        backgroundColor: '#a9a9a9',
+        borderRadius: 25,
         width: 70,
         height: 70,
         alignItems: 'center',
